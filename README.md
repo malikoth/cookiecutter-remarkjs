@@ -1,6 +1,8 @@
 # Cookiecutter remark.js
 Cookiecutter template for remark.js presentations
 
+See the [official remark.js website](http://remarkjs.com) for what's so cool about remark!
+
 # Features
 * Simple `index.html` file
 * Separate `slides.css` and `slides.md` files for ease of editing
