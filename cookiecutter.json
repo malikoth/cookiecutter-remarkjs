@@ -1,0 +1,9 @@
+{
+    "presentation_name": "My Presentation",
+    "project_slug": "{{ cookiecutter.presentation_name | lower | replace(' ', '-') }}",
+    "mermaid": ["true", "false"],
+    "highlight_language": "python",
+    "highlight_style": "monokai",
+    "highlight_lines": ["true", "false"],
+    "aspect_ratio": ["4:3", "16:9", "16:10"]
+}

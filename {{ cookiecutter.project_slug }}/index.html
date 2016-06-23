@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{{ cookiecutter.presentation_name }}</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="slides.css" />
+{%- if cookiecutter.mermaid == 'true' -%}
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/mermaid/6.0.0/mermaid.min.css" />
+{%- endif -%}
+    </head>
+    <body>
+        <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js"></script>
+{%- if cookiecutter.mermaid == 'true' -%}
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/6.0.0/mermaid.min.js"></script>
+{%- endif -%}
+        <script>
+            var slideshow = remark.create({
+                sourceUrl: "slides.md",
+                highlightLanguage: '{{ cookiecutter.highlight_language }}',
+                highlightStyle: '{{ cookiecutter.highlight_style }}',
+                highlightLines: {{ cookiecutter.highlight_lines }},
+                ratio: '{{ cookiecutter.aspect_ratio }}'
+            });
+        </script>
+    </body>
+</html>
