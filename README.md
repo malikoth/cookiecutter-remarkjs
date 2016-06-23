@@ -9,17 +9,16 @@ Cookiecutter template for remark.js presentations
 
 # Quickstart
 1. Install the latest Cookiecutter
-`pip install -U cookiecutter`
+  * `pip install -U cookiecutter`
 2. Create a presentation from _this_ Cookiecutter
-`cookiecutter gh:malikoth/cookiecutter-remarkjs`
+  * `cookiecutter gh:malikoth/cookiecutter-remarkjs`
 3. Edit content into `slides.md`.  See [the remark.js wiki](https://github.com/gnab/remark/wiki/Markdown) for help setting up your slides
 4. Customize any css in `slides.css`
 5. Serve your presentation over HTTP using one of the following methods (or others)
- 1. Commit your presentation to the `gh-pages` branch of a Git repository and push it to GitHub
- 2. Serve the presentation from your local harddrive with Python
- `python -m SimpleHTTPServer`
- or
- `python3 -m http.server`
+  1. Commit your presentation to the `gh-pages` branch of a Git repository and push it to GitHub
+  2. Serve the presentation from your local harddrive with Python
+    * `python -m SimpleHTTPServer` or
+    * `python3 -m http.server`
 6. Enjoy the applause after presenting your amazing talk
 
 # Options
